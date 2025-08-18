@@ -1,6 +1,7 @@
-favouriteMovieGenre("cowboy")
-favouriteFruit("banana")
-favouriteEdgeStyle("sharp")
+favouriteMovieGenre("fantasy") // space, scary, military, romantic, cowboy, fantasy, superhero
+favouriteFruit("blueberry")// watermelon, tomato, banana, orange, avocado, blueberry
+favouriteEdgeStyle("soft")// sharp, soft, round
+favouriteMode("light")// light, dark
 function setProp(prop, value) {
     document.documentElement.style.setProperty(prop, value)
 }
@@ -66,5 +67,3 @@ function favouriteFruit(theme) {
         setProp('--dark', "#222222")
     } 
 }
-
-
