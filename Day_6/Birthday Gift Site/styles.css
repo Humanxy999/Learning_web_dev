@@ -1,0 +1,27 @@
+.happy-monkey-regular {
+  font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;;
+    background: linear-gradient(to right, #f29e66 0%, #edbb5e 100%);
+}
+#nami-pfp{
+    border-radius: 50%;
+    width: 150px;
+}
+
+.gift-img {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    background-image: url("gift-cover.jpg");
+    background-size: cover;
+}
+.gift-img:hover {
+    background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExanM4MGo2dzV0a2E3NG9mcGU2cWZiNXIyOXp3aGYydGVzejMxYXYwZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KbYmq4izw3q9JmLpZU/giphy.gif");
+}
