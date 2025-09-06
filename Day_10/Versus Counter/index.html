@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Vs Counter</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html"  class="active">Home</a></li>
+            <li><a href="matches.html" >View Scores</a></li>
+        </ul>
+    </nav>
+    <div class="scoreboard">
+
+        <div class="container1">
+            <h1>Player 1</h1>
+            <p class="counter" id="counter1">0</p>
+            <div class="Buttons">
+                <div class="IncAndDec">
+                    <button onclick="Player1Increment()">+1</button>
+                    <button onclick="Player1Decrement()">-1</button>
+                </div>
+                <button onclick="Player1Reset()">Reset</button>
+            </div>
+        </div>
+
+        <div class="vs">
+            <h1>VS</h1>
+        </div>
+
+        <div class="container2">
+            <h1>Player 2</h1>
+            <p class="counter" id="counter2">0</p>
+            <div class="Buttons">
+                <div class="IncAndDec">
+                    <button onclick="Player2Increment()">+1</button>
+                    <button onclick="Player2Decrement()">-1</button>
+                </div>
+                <button onclick="Player2Reset()">Reset</button>
+            </div>
+        </div>
+    </div>
+    <div id="NamesAndScore">
+        <label for="name">Who’s Playing?</label>
+        <input type="text" placeholder="Team 1" id="input1">
+        <input type="text" placeholder="Team 2" id="input2">
+        <button id="Score" onclick="SaveScore()">Save Score</button>
+    </div>
+    <h3>Saved Matches</h3>
+    <div id="save-el"></div>
+    <script src="index.js"></script>
+</body>
+
+</html>
