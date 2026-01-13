@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Shopping List </title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="firstHalf">
+        <h1>🛒 My Shopping List</h1>
+    <div class="item">
+        <p>🍎 Apples ($0.75): <span id="apple-count">0</span></p> 
+        <button onclick="addApple()">+</button>
+        <button onclick="removeApple()">-</button>
+        <button onclick="resetApple()">reset</button>
+
+    </div>
+    <div class="item"> 
+        <p>🥛 Milk ($3.25): <span id="milk-count">0</span></p>
+        <button onclick="addMilk()">+</button>
+        <button onclick="removeMilk()">-</button>
+        <button onclick="resetMilk()">reset</button>
+    </div>
+    <div class="item"> 
+        <p>🍞 Bread ($2.25): <span id="bread-count">0</span></p>
+         <button onclick="addBread()">+</button>
+        <button onclick="removeBread()">-</button>
+        <button onclick="resetBread()">reset</button>
+    </div>
+    <div class="item"> 
+        <p>🍌 Bananas ($1.25): <span id="banana-count">0</span></p>
+         <button onclick="addBanana()">+</button>
+        <button onclick="removeBanana()">-</button>
+        <button onclick="resetBanana()">reset</button>
+    </div>
+    <div class="item"> 
+        <p>🧀 Cheese ($5.25): <span id="cheese-count">0</span></p>
+         <button onclick="addCheese()">+</button>
+        <button onclick="removeCheese()">-</button>
+        <button onclick="resetCheese()">reset</button>
+
+    </div>
+    </div>
+    
+    <div id="secondHalf">
+        <h1>Total</h1>
+        <p>Total Items: <span id="total-items">0</span></p>
+        <p>Estimated Total: $<span id="total-price">0.00</span></p>
+    </div>
+
+</body>
+</html>

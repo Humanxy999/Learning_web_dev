@@ -1,0 +1,17 @@
+.item{
+display: block;
+width: 200px;
+height: 100px;
+padding: 10px 50px;
+}
+
+
+body{
+    display: flex;
+    padding: 0px 20px;;
+}
+#secondHalf{
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 190px;
+}
